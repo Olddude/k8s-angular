@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Minikube
-
-download minikube from here [Minikube](https://minikube.sigs.k8s.io/)  
+## Docker & Minikube
+download [Docker](https://www.docker.com/products/docker-desktop)
+download [Minikube](https://minikube.sigs.k8s.io/)  
 To build deploy and serve the application inside minikube: .\build-and-run.ps1
