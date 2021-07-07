@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: k8s-angular
+  name: k8s-angular
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k8s-angular
+  template:
+    metadata:
+      labels:
+        app: k8s-angular
+    spec:
+      containers:
+      - image: k8s-angular:latest
+        name: k8s-angular
+        imagePullPolicy: IfNotPresent # to be able to deploy local images
+        ports:
+          - containerPort: 80
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
