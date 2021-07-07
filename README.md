@@ -28,6 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Docker & Minikube
 
-download [Docker](https://www.docker.com/products/docker-desktop)
+download [Docker](https://www.docker.com/products/docker-desktop)  
 download [Minikube](https://minikube.sigs.k8s.io/)  
-To build deploy and serve the application inside minikube: .\build-and-run.ps1
+To build deploy and serve the application inside minikube:
+```
+.\build-and-run.ps1
+```
